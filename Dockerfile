@@ -1,5 +1,5 @@
-FROM openjdk:17
+FROM eclipse-temurin:17
 
-COPY target/myapp.jar myapp.jar
+COPY target/*.jar app.jar
 
-ENTRYPOINT ["java","-jar","/myapp.jar"]
+ENTRYPOINT ["java","-jar","app.jar"]
