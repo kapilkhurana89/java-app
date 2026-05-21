@@ -10,6 +10,7 @@ pipeline {
 
         stage('Checkout') {
             steps {
+                git branch: 'main',
                 git 'https://github.com/kapilkhurana89/java-app.git'
             }
         }
