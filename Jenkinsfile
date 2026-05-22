@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        IMAGE_NAME = "kapil/java-app"
+        IMAGE_NAME = "kapilkhurana89/java-app"
         IMAGE_TAG = "latest"
     }
 
